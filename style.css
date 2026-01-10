@@ -1,0 +1,47 @@
+html,body{
+    background-image: url("art/tornshorts\ background\ image.png");
+    background-size:cover;
+    margin:0
+}
+
+.bganimation{
+    position:fixed;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    top:0;
+    left:0;
+    z-index:-1;
+    pointer-events:none;
+    animation: bgframes 1.3s steps(26) infinite;
+    background-size:cover;
+}
+
+@keyframes bgframes {
+   0%{background-image: url("art/tornshorts background animation 4 homepage/000.png");}
+    4%{background-image: url("art/tornshorts background animation 4 homepage/001.png");}
+    8%{background-image: url("art/tornshorts background animation 4 homepage/002.png");}
+    12%{background-image: url("art/tornshorts background animation 4 homepage/003.png");}
+    16%{background-image: url("art/tornshorts background animation 4 homepage/004.png");}
+    20%{background-image: url("art/tornshorts background animation 4 homepage/005.png");}
+    24%{background-image: url("art/tornshorts background animation 4 homepage/006.png");}
+    28%{background-image: url("art/tornshorts background animation 4 homepage/007.png");}
+    32%{background-image: url("art/tornshorts background animation 4 homepage/008.png");}
+    36%{background-image: url("art/tornshorts background animation 4 homepage/009.png");}
+    40%{background-image: url("art/tornshorts background animation 4 homepage/010.png");}
+    44%{background-image: url("art/tornshorts background animation 4 homepage/011.png");}
+    48%{background-image: url("art/tornshorts background animation 4 homepage/012.png");}
+    52%{background-image: url("art/tornshorts background animation 4 homepage/013.png");}
+    56%{background-image: url("art/tornshorts background animation 4 homepage/014.png");}
+    60%{background-image: url("art/tornshorts background animation 4 homepage/015.png");}
+    64%{background-image: url("art/tornshorts background animation 4 homepage/016.png");}
+    68%{background-image: url("art/tornshorts background animation 4 homepage/017.png");}
+    72%{background-image: url("art/tornshorts background animation 4 homepage/018.png");}
+    76%{background-image: url("art/tornshorts background animation 4 homepage/019.png");}
+    80%{background-image: url("art/tornshorts background animation 4 homepage/020.png");}
+    84%{background-image: url("art/tornshorts background animation 4 homepage/021.png");}
+    88%{background-image: url("art/tornshorts background animation 4 homepage/022.png");}
+    92%{background-image: url("art/tornshorts background animation 4 homepage/023.png");}
+    96%{background-image: url("art/tornshorts background animation 4 homepage/024.png");}
+    100%{background-image: url("art/tornshorts background animation 4 homepage/025.png");}
+}
