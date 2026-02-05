@@ -1,19 +1,15 @@
 html,body{
     background-image: url("art/tornshorts\ background\ image.png");
-    background-size:cover;
+    background-size: contain;
     margin:0
 }
 
 .bganimation{
     position:fixed;
-    object-fit:cover;
-    display:block;
-    max-block-size: 100%;
     top:0;
     left:0;
-    z-index:-1;
-    pointer-events:none;
-    animation: bgframes 1.3s steps(26) infinite;
+    height:100%;
+    animation: bgframes 2s steps(27) infinite;
 }
 
 @keyframes bgframes {
