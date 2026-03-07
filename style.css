@@ -8,11 +8,11 @@ html,body{
     position:fixed;
     top:0.5dvh;
     left:0dvw;
-    width:2700%;
+    width:2500%;
     height:100dvh;
     padding:0;
     margin:0;
-    animation: bgframes 3s steps(27) infinite;
+    animation: bgframes 2s steps(25) infinite;
 }
 
 @keyframes bgframes {
