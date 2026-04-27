@@ -1,16 +1,24 @@
 html,body{
-    background-image: url("Art--Tornshorts/tornshorts background image.png");
-    background-size: 100% auto;
     margin:0%
+}
+
+.bgstatic{
+    position:fixed;
+    top:0dvh;
+    left:0dvw;
+    width:100dvw;
+    height:100dvh;
+    padding:0;
+    margin:0;
 }
 
 .bganimation{
     position:fixed;
-    top:0.5dvh;
-    left:0dvw;
-    width:2500%;
-    height:100dvh;
+    height:100%;
     padding:0;
+    width:2500dvw;
+    left:0dvw;
+    top:0dvh;
     margin:0;
     animation: bgframes 2s steps(25) infinite;
 }
