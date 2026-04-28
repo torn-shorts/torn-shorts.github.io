@@ -23,6 +23,68 @@ html,body{
     animation: bgframes 2s steps(25) infinite;
 }
 
+
+/* The Bathroom Label*/
+
+.thebathroom{
+    position:fixed;
+    z-index:2;
+    width:20dvw;
+    height:25dvh;
+
+    left: 40%;
+    top: 25%;
+    background-image: none;
+}
+
+.thebathroom:hover{
+
+    background-size: auto 250%;
+    background-position-y: 40%;
+    background-image: url('Art--Tornshorts/TheBathroomSpritesheet.png');
+    animation:thebathroomframes 1s steps(25) forwards;
+}
+
+@keyframes thebathroomframes {
+    from {background-position-x: 0.8;}
+    to {background-position-x: 91.05%;}
+}
+
+
+/* The Bedroom Label*/
+
+.thebedroom {
+    position: fixed;
+    z-index: 1;
+    width: 35dvw;
+    height: 50dvh;
+
+    left: 40%;
+    top: 5%;
+    background-size: auto 100%;
+        background-position-y: 40%;
+    background-image: none;
+}
+
+.thebedroom:hover {
+
+    background-size: auto 100%;
+    background-position-y: 40%;
+    background-image: url('Art--Tornshorts/TheBedroomSpritesheet.png');
+    animation: thebedroomframes 0.8s steps(22) forwards;
+}
+
+@keyframes thebedroomframes {
+    from {
+        background-position-x: 0.8;
+    }
+
+    to {
+        background-position-x: 90.5%;
+    }
+}
+
+
 @keyframes bgframes {
     from {transform: translateX(0);}
     to {transform: translateX(-100%);}
