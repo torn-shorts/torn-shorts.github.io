@@ -13,41 +13,53 @@ html,body{
 }
 
 .bganimation{
-    position:fixed;
-    height:100%;
-    padding:0;
-    width:2500dvw;
-    left:0dvw;
-    top:0dvh;
-    margin:0;
-    animation: bgframes 2s steps(25) infinite;
+    position: fixed;
+        top: 0dvh;
+        left: 0dvw;
+        width: 1200dvw;
+        height: 100dvh;
+        padding: 0;
+        margin: 0;
+
+    animation: bgframes 1s steps(12) infinite;
+}
+
+@keyframes bgframes {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 
 /* The Bathroom Label*/
 
 .thebathroom{
+
     position:fixed;
     z-index:2;
     width:20dvw;
-    height:25dvh;
+    height:12dvw;;
 
-    left: 40%;
+    left: 38%;
     top: 25%;
     background-image: none;
+
 }
 
 .thebathroom:hover{
-
-    background-size: auto 250%;
-    background-position-y: 40%;
-    background-image: url('Art--Tornshorts/TheBathroomSpritesheet.png');
-    animation:thebathroomframes 1s steps(25) forwards;
+    
+    background-size: auto 100%;
+    background-image: url('Art--Tornshorts/THEBATHROOMSS500w300h10f1s.png');
+    animation:thebathroomframes 1s steps(9) forwards;
 }
 
 @keyframes thebathroomframes {
-    from {background-position-x: 0.8;}
-    to {background-position-x: 91.05%;}
+    from {background-position-x: 0%;}
+    to {background-position-x: 100%;}
 }
 
 
@@ -56,36 +68,94 @@ html,body{
 .thebedroom {
     position: fixed;
     z-index: 1;
-    width: 35dvw;
-    height: 50dvh;
+    width: 28dvw;
+    height: 12dvw;
+    transform:rotate(40deg);
 
     left: 40%;
-    top: 5%;
+    top: 12%;
     background-size: auto 100%;
-        background-position-y: 40%;
+    background-position-y: 40%;
     background-image: none;
 }
 
 .thebedroom:hover {
 
-    background-size: auto 100%;
-    background-position-y: 40%;
-    background-image: url('Art--Tornshorts/TheBedroomSpritesheet.png');
-    animation: thebedroomframes 0.8s steps(22) forwards;
+    background-image: url('Art--Tornshorts/THEBEDROOMSS700w300h11f1s.png');
+    animation: thebedroomframes 1s steps(10) forwards;
 }
 
 @keyframes thebedroomframes {
     from {
-        background-position-x: 0.8;
+        background-position-x: 0%;
     }
 
     to {
-        background-position-x: 90.5%;
+        background-position-x: 100%;
+    }
+}
+
+/* The Catalog Label*/
+
+.thecatalog {
+    position: fixed;
+    z-index: 1;
+    width: 20dvw;
+    height: 12dvw;
+
+    left: 30%;
+    top: 75%;
+    background-size: auto 100%;
+    background-position-y: 40%;
+    background-image: none;
+}
+
+.thecatalog:hover {
+
+    background-image: url('Art--Tornshorts/THECATALOGSS500w300h11f1s.png');
+    animation: thecatalogframes 1s steps(10) forwards;
+}
+
+@keyframes thecatalogframes {
+    from {
+        background-position-x: 0%;
+    }
+
+    to {
+        background-position-x: 100%;
+    }
+}
+
+/* The Cinema Label*/
+
+.thecinema {
+
+    position: fixed;
+    z-index: 1;
+    width: 20dvw;
+    height: 40dvw;
+
+    left: 74%;
+    top: 5%;
+    background-size: 1000% auto;
+    background-repeat: no-repeat;
+    background-image: none;
+}
+
+.thecinema:hover {
+
+    background-image: url('Art--Tornshorts/THECINEMASS400w250h10f1s.png');
+    animation: thecinemaframes 1s steps(9) forwards;
+}
+
+@keyframes thecinemaframes {
+    from {
+        background-position-x: 0%;
+    }
+
+    to {
+        background-position-x: 100%;
     }
 }
 
 
-@keyframes bgframes {
-    from {transform: translateX(0);}
-    to {transform: translateX(-100%);}
-}
