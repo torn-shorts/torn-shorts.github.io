@@ -1,6 +1,6 @@
 html,body{
     margin:0%;
-    background-color:#542D10;
+    background-color:#421A0A;
 }
 
 .bgstatic{
@@ -69,26 +69,27 @@ html,body{
 .thebedroom {
     position: fixed;
     z-index: 1;
-    width: 28dvw;
+    width: 35dvw;
     height: 12dvw;
     transform:rotate(40deg);
 
-    left: 40%;
-    top: 12%;
+    left: 34%;
+    top: 9%;
     background-size: auto 100%;
     background-position-y: 40%;
     background-image: none;
+    background-repeat: no-repeat;
 }
 
 .thebedroom:hover {
 
     background-image: url('Art--Tornshorts/THEBEDROOMSS700w300h11f1s.png');
-    animation: thebedroomframes 1s steps(10) forwards;
+    animation: thebedroomframes 0.8s steps(10) forwards;
 }
 
 @keyframes thebedroomframes {
     from {
-        background-position-x: 0%;
+        background-position-x: -3%;
     }
 
     to {
