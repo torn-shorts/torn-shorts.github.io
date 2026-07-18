@@ -1,5 +1,7 @@
 html,body{
-    margin:0%
+    margin:0%;
+    background-image:url('Art--Tornshorts/tornshorts background image.png');
+    background-size:cover;
 }
 
 .bgstatic{
